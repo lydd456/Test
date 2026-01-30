@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=BBH+Bogle&family=Geom:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sekuya&display=swap');
+
+body{
+    overflow: visible;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 10%;
+}
+
+nav img{
+    border-radius: 100px;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.money , .restaurant {
+    display: none;
+}
+
+.active{
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 2%;
+  width: 60%;
+  background: white;
+  border: 1px solid red;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.top {
+  position: absolute;  
+  top: 10px;           
+  right: 10px;          
+}
+
+.top img {
+  width: 25px;       
+  cursor: pointer;
+}
+
+h1{
+    font-family: 'lexend';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3{
+    font-family: 'lexend';
+    font-size: 1rem;
+    padding-left: 10%;
+}
+
